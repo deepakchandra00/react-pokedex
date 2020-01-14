@@ -1,0 +1,42 @@
+{
+  "name": "appman-pokedex-2018",
+  "version": "0.2.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "^3.2.0",
+    "redux-devtools-extension": "^2.13.7"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.4",
+    "i": "^0.3.6",
+    "lodash.isequal": "^4.5.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^6.0.0",
+    "reactstrap": "^7.0.2",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "api": "node ./src/server.js",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

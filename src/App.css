@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.App .header {
+}
+
+.level-hap {
+  background-image: url("cute.png");
+  background-repeat: no-repeat;
+  height: 33px;
+}
+.happy1 {
+  width: 33px
+}
+.happy2 {
+  width: 64px
+}
+.happy3 {
+  width: 94px
+}
+.happy4 {
+  width: 125px
+}
+.happy5 {
+  width: 165px
+}
+
+.App .content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.App .footer { 
+  margin-top: auto;
+  background-color: #ec5656;
+  height: 100px;
+  position: relative;
+}
+
+.footer .add-my-pokedex {
+  position: absolute;
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ec5656;
+  vertical-align: middle;
+  line-height: 150px;
+  font-size: 80px;
+  color: white;
+}
+
+.card-row {
+  margin-bottom: 10px;
+}
